@@ -20,6 +20,7 @@
 		25022D792C91F1BA007276B8 /* PlaceInfoScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25022D782C91F1BA007276B8 /* PlaceInfoScreen.swift */; };
 		25022D7B2C9443C2007276B8 /* AuthorDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25022D7A2C9443C2007276B8 /* AuthorDetailView.swift */; };
 		25022D7E2C94BCEF007276B8 /* AppVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25022D7D2C94BCEF007276B8 /* AppVM.swift */; };
+		254013F52C9B150500DD2F25 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254013F42C9B150500DD2F25 /* SearchBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		25022D782C91F1BA007276B8 /* PlaceInfoScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceInfoScreen.swift; sourceTree = "<group>"; };
 		25022D7A2C9443C2007276B8 /* AuthorDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorDetailView.swift; sourceTree = "<group>"; };
 		25022D7D2C94BCEF007276B8 /* AppVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppVM.swift; sourceTree = "<group>"; };
+		254013F42C9B150500DD2F25 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				25022D722C91EFE9007276B8 /* Application */,
+				254013F32C9B14E800DD2F25 /* UIKit Components */,
 				25022D712C91EFDF007276B8 /* Models */,
 				25022D592C91E177007276B8 /* AppTabView.swift */,
 				25022D732C91EFFC007276B8 /* Views */,
@@ -132,6 +135,14 @@
 				25022D7A2C9443C2007276B8 /* AuthorDetailView.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		254013F32C9B14E800DD2F25 /* UIKit Components */ = {
+			isa = PBXGroup;
+			children = (
+				254013F42C9B150500DD2F25 /* SearchBarView.swift */,
+			);
+			path = "UIKit Components";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,6 +219,7 @@
 				25022D6E2C91EF55007276B8 /* PlaceVM.swift in Sources */,
 				25022D682C91E87F007276B8 /* MyFavoriteScreen.swift in Sources */,
 				25022D6A2C91E8A5007276B8 /* PlaceScreen.swift in Sources */,
+				254013F52C9B150500DD2F25 /* SearchBarView.swift in Sources */,
 				25022D7E2C94BCEF007276B8 /* AppVM.swift in Sources */,
 				25022D792C91F1BA007276B8 /* PlaceInfoScreen.swift in Sources */,
 				25022D5A2C91E177007276B8 /* AppTabView.swift in Sources */,

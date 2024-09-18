@@ -8,17 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		25022D582C91E177007276B8 /* HW1_LesnoyOlegApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25022D572C91E177007276B8 /* HW1_LesnoyOlegApp.swift */; };
-		25022D5A2C91E177007276B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25022D592C91E177007276B8 /* ContentView.swift */; };
+		25022D5A2C91E177007276B8 /* AppTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25022D592C91E177007276B8 /* AppTabView.swift */; };
 		25022D5C2C91E179007276B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25022D5B2C91E179007276B8 /* Assets.xcassets */; };
 		25022D5F2C91E179007276B8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25022D5E2C91E179007276B8 /* Preview Assets.xcassets */; };
+		25022D682C91E87F007276B8 /* MyFavoriteScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25022D672C91E87F007276B8 /* MyFavoriteScreen.swift */; };
+		25022D6A2C91E8A5007276B8 /* PlaceScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25022D692C91E8A5007276B8 /* PlaceScreen.swift */; };
+		25022D6C2C91E8CB007276B8 /* InfoScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25022D6B2C91E8CB007276B8 /* InfoScreen.swift */; };
+		25022D6E2C91EF55007276B8 /* PlaceVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25022D6D2C91EF55007276B8 /* PlaceVM.swift */; };
+		25022D702C91EF83007276B8 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25022D6F2C91EF83007276B8 /* Place.swift */; };
+		25022D772C91F0B9007276B8 /* PlaceViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25022D762C91F0B9007276B8 /* PlaceViewCell.swift */; };
+		25022D792C91F1BA007276B8 /* PlaceInfoScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25022D782C91F1BA007276B8 /* PlaceInfoScreen.swift */; };
+		25022D7B2C9443C2007276B8 /* AuthorDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25022D7A2C9443C2007276B8 /* AuthorDetailView.swift */; };
+		25022D7E2C94BCEF007276B8 /* AppVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25022D7D2C94BCEF007276B8 /* AppVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		25022D542C91E177007276B8 /* HW1_LesnoyOleg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW1_LesnoyOleg.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25022D572C91E177007276B8 /* HW1_LesnoyOlegApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW1_LesnoyOlegApp.swift; sourceTree = "<group>"; };
-		25022D592C91E177007276B8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		25022D592C91E177007276B8 /* AppTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabView.swift; sourceTree = "<group>"; };
 		25022D5B2C91E179007276B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25022D5E2C91E179007276B8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		25022D672C91E87F007276B8 /* MyFavoriteScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFavoriteScreen.swift; sourceTree = "<group>"; };
+		25022D692C91E8A5007276B8 /* PlaceScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceScreen.swift; sourceTree = "<group>"; };
+		25022D6B2C91E8CB007276B8 /* InfoScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoScreen.swift; sourceTree = "<group>"; };
+		25022D6D2C91EF55007276B8 /* PlaceVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceVM.swift; sourceTree = "<group>"; };
+		25022D6F2C91EF83007276B8 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		25022D762C91F0B9007276B8 /* PlaceViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceViewCell.swift; sourceTree = "<group>"; };
+		25022D782C91F1BA007276B8 /* PlaceInfoScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceInfoScreen.swift; sourceTree = "<group>"; };
+		25022D7A2C9443C2007276B8 /* AuthorDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorDetailView.swift; sourceTree = "<group>"; };
+		25022D7D2C94BCEF007276B8 /* AppVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +69,11 @@
 		25022D562C91E177007276B8 /* HW1_LesnoyOleg */ = {
 			isa = PBXGroup;
 			children = (
-				25022D572C91E177007276B8 /* HW1_LesnoyOlegApp.swift */,
-				25022D592C91E177007276B8 /* ContentView.swift */,
+				25022D722C91EFE9007276B8 /* Application */,
+				25022D712C91EFDF007276B8 /* Models */,
+				25022D592C91E177007276B8 /* AppTabView.swift */,
+				25022D732C91EFFC007276B8 /* Views */,
+				25022D742C91F012007276B8 /* ViewModels */,
 				25022D5B2C91E179007276B8 /* Assets.xcassets */,
 				25022D5D2C91E179007276B8 /* Preview Content */,
 			);
@@ -65,6 +86,52 @@
 				25022D5E2C91E179007276B8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		25022D712C91EFDF007276B8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				25022D6F2C91EF83007276B8 /* Place.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		25022D722C91EFE9007276B8 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				25022D572C91E177007276B8 /* HW1_LesnoyOlegApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		25022D732C91EFFC007276B8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				25022D672C91E87F007276B8 /* MyFavoriteScreen.swift */,
+				25022D692C91E8A5007276B8 /* PlaceScreen.swift */,
+				25022D782C91F1BA007276B8 /* PlaceInfoScreen.swift */,
+				25022D6B2C91E8CB007276B8 /* InfoScreen.swift */,
+				25022D752C91F07D007276B8 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		25022D742C91F012007276B8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				25022D7D2C94BCEF007276B8 /* AppVM.swift */,
+				25022D6D2C91EF55007276B8 /* PlaceVM.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		25022D752C91F07D007276B8 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				25022D762C91F0B9007276B8 /* PlaceViewCell.swift */,
+				25022D7A2C9443C2007276B8 /* AuthorDetailView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +204,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25022D5A2C91E177007276B8 /* ContentView.swift in Sources */,
+				25022D7B2C9443C2007276B8 /* AuthorDetailView.swift in Sources */,
+				25022D6E2C91EF55007276B8 /* PlaceVM.swift in Sources */,
+				25022D682C91E87F007276B8 /* MyFavoriteScreen.swift in Sources */,
+				25022D6A2C91E8A5007276B8 /* PlaceScreen.swift in Sources */,
+				25022D7E2C94BCEF007276B8 /* AppVM.swift in Sources */,
+				25022D792C91F1BA007276B8 /* PlaceInfoScreen.swift in Sources */,
+				25022D5A2C91E177007276B8 /* AppTabView.swift in Sources */,
+				25022D6C2C91E8CB007276B8 /* InfoScreen.swift in Sources */,
+				25022D702C91EF83007276B8 /* Place.swift in Sources */,
+				25022D772C91F0B9007276B8 /* PlaceViewCell.swift in Sources */,
 				25022D582C91E177007276B8 /* HW1_LesnoyOlegApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

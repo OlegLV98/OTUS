@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct HW1_LesnoyOlegApp: App {
+    @StateObject var appVM: AppVM = .init()
+    @StateObject var placeVM: PlaceVM = .init()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppTabView()
+                .environmentObject(appVM)
+                .environmentObject(placeVM)
         }
     }
 }

@@ -27,7 +27,6 @@ struct InfoScreen: View {
         .sheet(isPresented: $isPresented, content: {
             AuthorDetailView()
                 .presentationCornerRadius(30)
-                .presentationDragIndicator(.visible)
         })
         
     }
